@@ -100,10 +100,10 @@ const LoginModal = () => {
       />
       <div className="text-neutral-500 text-center mt-4 font-light">
         <p>
-          First time using Airbnb?
+          First time using Airbnb?{" "}
           <span
             onClick={onToggle}
-            className="text-neutral-800 cursor-pointer hover:underline"
+            className="text-neutral-800 font-semibold cursor-pointer hover:underline"
           >
             Create an account
           </span>
