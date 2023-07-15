@@ -88,6 +88,11 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                     setIsOpen(false);
                   }}
                 />
+                <MenuItem
+                  visibleOnMobile
+                  label="Airbnb your home"
+                  onClick={rentModal.onOpen}
+                />
                 <hr />
                 <MenuItem label="Logout" onClick={() => signOut()} />
               </>
